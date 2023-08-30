@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pops/static/css/main.7abb12e6.css",
-    "main.js": "/pops/static/js/main.987dcf67.js",
+    "main.css": "/pops/static/css/main.e2dd0147.css",
+    "main.js": "/pops/static/js/main.41ae3794.js",
     "static/js/787.45b1b1e0.chunk.js": "/pops/static/js/787.45b1b1e0.chunk.js",
     "static/media/Itinerary creation 1.png": "/pops/static/media/Itinerary creation 1.9ac13f5d3d7baf0613d1.png",
     "static/media/Rectangle 1.png": "/pops/static/media/Rectangle 1.b44f4e5baa73e94dedd9.png",
     "index.html": "/pops/index.html",
-    "main.7abb12e6.css.map": "/pops/static/css/main.7abb12e6.css.map",
-    "main.987dcf67.js.map": "/pops/static/js/main.987dcf67.js.map",
+    "main.e2dd0147.css.map": "/pops/static/css/main.e2dd0147.css.map",
+    "main.41ae3794.js.map": "/pops/static/js/main.41ae3794.js.map",
     "787.45b1b1e0.chunk.js.map": "/pops/static/js/787.45b1b1e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abb12e6.css",
-    "static/js/main.987dcf67.js"
+    "static/css/main.e2dd0147.css",
+    "static/js/main.41ae3794.js"
   ]
 }
