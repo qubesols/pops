@@ -28,10 +28,10 @@ const Banner = () => {
             </p>
             <div className="banner-btns">
               <Link to="/options">
-                <button className="yes">Yes</button>
+                <button className="yes btns">Yes</button>
               </Link>
               <Link to="/home">
-                <button className="yes">No</button>
+                <button className="yes btns">No</button>
               </Link>
             </div>
           </div>

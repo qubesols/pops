@@ -22,6 +22,9 @@ button {
   background-color: #1f840e;
   color: whitesmoke;
 }
+button:hover {
+  cursor: pointer;
+}
 .container {
   display: flex;
   align-items: center;
@@ -181,6 +184,11 @@ button {
 .yes {
   width: 130px;
   height: 45px;
+}
+.btns:hover {
+  color: #1f840e;
+  background-color: #8080804a;
+  border: 1px solid #1f840e;
 }
 
 @keyframes spin_words {

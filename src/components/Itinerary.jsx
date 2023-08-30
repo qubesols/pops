@@ -8,7 +8,7 @@ const Itinerary = () => {
     <div className="ite-con">
       <img src={itinerary} alt="icon" />
       <Link to="/options">
-        <button className="ite-btn">Continue Planning</button>
+        <button className="ite-btn btns">Continue Planning</button>
       </Link>
     </div>
   );

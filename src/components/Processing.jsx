@@ -8,10 +8,10 @@ const Processing = () => {
         <h1>We have begun creating your well-rounded itinerary</h1>
         <div className="process-btns">
           <Link to="/itinerary">
-            <button>Preview Itinerary</button>
+            <button className="btns">Preview Itinerary</button>
           </Link>
           <Link to="/options">
-            <button>Continue Planning</button>
+            <button className="btns">Continue Planning</button>
           </Link>
         </div>
       </div>
