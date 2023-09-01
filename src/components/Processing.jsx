@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Processing = () => {
   return (
-    <div className=" container">
+    <div className=" container opt-con pros-con">
       <div className="process-con">
         <h1>We have begun creating your well-rounded itinerary</h1>
         <div className="process-btns">

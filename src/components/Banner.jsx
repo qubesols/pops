@@ -4,7 +4,7 @@ import hero from "./images/Rectangle 1.png";
 
 const Banner = () => {
   return (
-    <div className="container">
+    <div className="container opt-con hero-con">
       <div className="modalx">
         <div className="hero">
           <div className="image">
@@ -28,10 +28,10 @@ const Banner = () => {
             </p>
             <div className="banner-btns">
               <Link to="/options">
-                <button className="yes btns">Yes</button>
+                <button className="btns">Yes</button>
               </Link>
-              <Link to="/home">
-                <button className="yes btns">No</button>
+              <Link to="/home" className="dismiss">
+                Dismiss
               </Link>
             </div>
           </div>

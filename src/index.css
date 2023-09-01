@@ -3,17 +3,24 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 a {
   text-decoration: none;
   color: black;
 }
 button {
-  width: fit-content;
+  width: 260px;
+  height: 60px;
   padding: 2px 26px;
   border: none;
   outline: none;
   -webkit-appearance: none;
-  border-radius: 15px;
+  border-radius: 28px;
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 1.25px;
@@ -21,6 +28,7 @@ button {
   font-family: "Montserrat", sans-serif;
   background-color: #1f840e;
   color: whitesmoke;
+  transition: 0.7s;
 }
 button:hover {
   cursor: pointer;
@@ -29,13 +37,15 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
+  width: fit-content;
   background-color: #8080804a;
+  padding: 5rem;
+  margin-top: 2rem;
 }
 
 /*HOME*/
 .confirm {
-  height: 55px;
   margin: 50px;
 }
 .confirm button {
@@ -53,6 +63,7 @@ button:hover {
   background-color: white;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 .image {
   width: 340px;
@@ -114,6 +125,18 @@ button:hover {
   display: flex;
   gap: 35px;
   margin-top: 26px;
+  align-items: center;
+}
+.dismiss {
+  color: #1f840e;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.dismiss:hover {
+  font-weight: 600;
+  font-size: 22px;
+  scale: 1.1;
+  /*transform: translateY(-8px); */
 }
 
 /*OPTIONS*/
@@ -129,6 +152,7 @@ button:hover {
   align-items: center;
   height: 300px;
   width: 757px;
+  border-radius: 10px;
 }
 .items {
   display: flex;
@@ -140,8 +164,21 @@ button:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 108px;
-  font-size: 12px;
+  width: 140px;
+  font-size: 19px;
+  gap: 22px;
+  transition: 0.6s;
+}
+.item:hover {
+  color: green;
+}
+/*
+.item img {
+  width: 40px;
+}
+*/
+.opt-icons {
+  font-size: 40px;
 }
 .item :hover {
   cursor: pointer;
@@ -157,13 +194,13 @@ button:hover {
   justify-content: center;
   height: 300px;
   gap: 41px;
+  border-radius: 10px;
 }
 .process-btns {
   display: flex;
   gap: 20px;
 }
 .process-btns button {
-  height: 55px;
 }
 
 /*ITINERARY*/
@@ -175,7 +212,6 @@ button:hover {
   justify-content: center;
 }
 .ite-btn {
-  height: 50px;
   margin-bottom: 30px;
 }
 .ite-con img {
@@ -184,6 +220,9 @@ button:hover {
 .yes {
   width: 130px;
   height: 45px;
+  .btns {
+    transition: 0.6s;
+  }
 }
 .btns:hover {
   color: #1f840e;
@@ -220,9 +259,22 @@ button:hover {
     transform: translateY(-400%);
   }
 }
-
+@media (max-width: 1024px) {
+  .container {
+    height: 458px;
+    width: 900px;
+    padding: 0;
+  }
+}
 @media (max-width: 768px) {
+  .container {
+    width: auto;
+    padding: 0 56px;
+  }
   /*BANNER*/
+  .hero-con {
+    height: 600px;
+  }
   .hero {
     flex-direction: column;
   }
@@ -232,25 +284,31 @@ button:hover {
   }
 
   /*OPTIONS*/
+
   .options {
-    margin: 60px;
+    margin: 10px;
+    width: auto;
   }
   .item {
-    width: 82px;
+    width: 93px;
+    font-size: 13px;
   }
+  /*
   .item img {
     width: 30px;
+  }*/
+  .opt-icons {
+    font-size: 30px;
   }
 
   /*PROCESS*/
   .process-con {
     font-size: 18px;
     text-align: center;
-    margin: 60px;
+    margin: 0px;
   }
-  .process-btns button {
-    height: 43px;
-    font-size: 12px;
+  .pros-con {
+    margin: 37px;
   }
 
   /*ITINERARY*/
@@ -259,59 +317,103 @@ button:hover {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 576px) {
+  button {
+    height: 53px;
+    width: 270px;
+  }
+  .container {
+    width: 100%;
+  }
   /*BANNER*/
   .image {
     width: 235px;
+  }
+  .text {
+    padding: 0 19px;
   }
   .banner-btns {
     flex-direction: column;
     gap: 18px;
   }
+  /*
   .banner-btns button {
     width: 300px;
     height: 55px;
   }
+  */
   .hero {
     padding: 0px;
-    margin: 20px;
   }
   .larger {
-    font-size: 23px;
+    font-size: 22px;
   }
   .outer {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   /*OPTIONS*/
+  .opt-con {
+    padding: 0px 25px;
+    height: 500px;
+  }
+  .xbtn {
+    margin-bottom: 22px;
+  }
+  .xbtn img {
+    width: 17px;
+  }
   .options {
-    height: 526px;
-    padding: 15px;
-    margin: 20px;
+    height: 450px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
   }
   .items {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     width: 100%;
   }
   .item {
     width: 100%;
-    flex-direction: row;
+    height: 55px;
+    color: white;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    background-color: #80808054;
+    background-color: #047524;
     border-radius: 21px;
     padding: 5px;
-    padding-right: 21px;
+    padding-left: 18px;
+    padding-right: 10px;
+    text-align: start;
+    font-size: 16px;
+    transition: 0.6s;
   }
+  .item:hover {
+    color: #047524;
+    background-color: #8080804a;
+    border: 1px solid #047524;
+  }
+  /*
   .item img {
-    width: 40px;
+    width: 30px;
+  }
+  */
+  .opt-icons {
+    font-size: 30px;
+    color: white;
+    transition: 0.6s;
+  }
+  .opt-icons:hover {
+    color: #047524;
   }
 
   /*PROCESS*/
   .process-con {
-    font-size: 13px;
+    font-size: 21px;
     margin: 20px;
+    height: 450px;
   }
   .process-btns {
     flex-direction: column;

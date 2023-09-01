@@ -8,7 +8,7 @@ import Itinerary from "./components/Itinerary";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
