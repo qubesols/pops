@@ -41,7 +41,7 @@ button:hover {
   justify-content: center;
   /* height: 100vh; */
   width: fit-content;
-  background-color: #8080804a;
+  /*background-color: #8080804a;*/
   padding: 5rem;
   margin-top: 2rem;
 }
@@ -262,6 +262,9 @@ button:hover {
   }
 }
 @media (max-width: 1024px) {
+  .app {
+    margin: 30px;
+  }
   .container {
     height: 458px;
     width: 900px;
@@ -269,6 +272,9 @@ button:hover {
   }
 }
 @media (max-width: 768px) {
+  .app {
+    margin: 15px;
+  }
   .container {
     width: auto;
     padding: 0 56px;
@@ -320,6 +326,9 @@ button:hover {
 }
 
 @media (max-width: 576px) {
+  .app {
+    margin: 5px;
+  }
   button {
     height: 53px;
     width: 270px;
@@ -333,6 +342,12 @@ button:hover {
   }
   .text {
     padding: 0 19px;
+  }
+  .medium {
+    font-size: 18px;
+  }
+  .small {
+    font-size: 17px;
   }
   .banner-btns {
     flex-direction: column;
